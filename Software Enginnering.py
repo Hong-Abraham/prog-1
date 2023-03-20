@@ -21,7 +21,7 @@ def main():
         print('1. Encode')
         print('2. Decode')
         print('3. Quit')
-        choice = input('\nPleas enter an option: ')
+        choice = input('\nPlease enter an option: ')
         if choice == '1':
             value = input("Please enter your password to encode: ")
             print('Password has been encoded and stored!')
