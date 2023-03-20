@@ -22,7 +22,15 @@ def main():
         print('2. Decode')
         print('3. Quit')
         choice = input('\nPleas enter an option: ')
-        if choice == 1:
+        if choice == '1':
             value = input("Please enter your password to encode: ")
             print('Password has been encoded and stored!')
-        if choice == 2:
+        elif choice == '2':
+            print('The encoded password is', encoder(value), 'and the original password is', value, '.')
+        elif choice == '3':
+            break
+        else:
+            print('Invalid choice')
+        print()
+
+main()
